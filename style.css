@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;600&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Hind', sans-serif;
+
+}
+
+
+header {
+    position: relative;
+    background-color: #333333;
+    
+    
+}
+
+.link1{
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 80px;
+    text-align: center;
+    letter-spacing: 0.875px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #FFFFFF;
+    
+    
+}
+
+
+
+a:hover {
+    background-color: transparent;
+    color: #ffff00;
+    font-size: 130%;
+    
+    
+
+}
+
+.button1{
+
+    border-radius: 6px;
+    background: #40444a;
+    color: #ffb700;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 1px;
+    height: 40px;
+    text-shadow: #222222;
+    box-shadow: 1px 1px 9px #000000;
+    margin-right: 25px;
+    transition-delay: 0.1s;
+    width: 124px;
+    height: 51px;
+
+
+}
+
+button:hover {
+
+    background-color: slategray;
+    color: #ffb700;
+    border-color: #ffb700;
+    transform: scale(0.9);
+    transition: all 0.3s;
+    
+}
+
+.img-modelo {
+
+    width: 568px;
+    height: 500px;
+    margin-left: 125px;
+    display: inline-block;
+}
+
+section {
+    display: inline-block;
+    margin-left: 80px;
+    
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 50px;
+    color: #161a49;
+    width: 582px;;
+    text-align: center;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 50px;
+    text-align: justify;
+    margin-left: 40px;
+
+    
+    
+}
+
+p {
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 10px;
+    letter-spacing: 0.875px;
+    margin: 50px 80px 90px;
+    width: 493px;
+}
+
+footer {
+
+    position: relative;
+    background-color: #333333;
+    margin-top: 150px;
+
+    
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: #333333;
+    color: #FFF;
+    width: 100%;
+    height: 100px;    
+    text-align: center;
+    line-height: 100px;
+}
+
+.container-redes-sociais li img{
+    width: 32px;
+    height: 32px;
+}
+
+.container-redes-sociais li{
+
+    display: inline-block;
+    margin-left: 10px;
+    list-style: none;
+
+}
